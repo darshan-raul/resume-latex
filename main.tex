@@ -36,7 +36,7 @@
 	% If your name is very short, use just one of the lines below
 	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
 	{\HUGE\textcolor{black}{\textbf{\MakeUppercase{Darshan}}}} % First name
-	
+
 	{\HUGE\textcolor{black}{\textbf{\MakeUppercase{Raul}}}} % Last name
 	
 	\vspace{6pt}
@@ -57,9 +57,9 @@
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{Globe}{9}{\href{https://alyx.vance.me}{darshan-raul.github.io}}\\
-	\icon{Github}{9}{\href{https://github.com/alyxvance}{github.com/darshan-raul}}\\
-	\icon{Wordpress}{9}{cloudforte.wordpress.com}\\
+	\icon{Globe}{9}{\href{https://darshan-raul.github.io}{darshan-raul.github.io}}\\
+	\icon{Github}{9}{\href{https://github.com/darshan-raul}{github.com/darshan-raul}}\\
+	\icon{Wordpress}{9}{\href{https://cloudforte.wordpress.com}{cloudforte.wordpress.com}}\\
 \end{minipage}
 
 \vspace{0.5cm}
@@ -80,6 +80,7 @@
     • Passionate about automation. Created automation scripts in Python/Bash.\\
     • An effective team member with proven abilities to be a part of the team during the project phasea and training .\\
     • Possess excellent troubleshooting, interpersonal and time management skills.\\
+    • Have created open source projects ranging from Angular web app, Containerized application, Serverless REST API.\\
     • Blog about the technologies and share experiences. \\
     
 
@@ -124,17 +125,20 @@
 		{Nov 2018 -\\Current}
 		{Junior Devops Engineer}
 		{Fountain Hill Systems,Thane}
-		{
+		{\textbf{Environment:} AWS (EC2, S3, IAM, Cloudformation, Cloudwatch, Route53, RDS, EBS, EFS, Elasticache, ACM), ELK stack, Jenkins, Puppet, Nginx, Tomcat, Maven\\
 		• Responsible for the deployment of architecture on 4 different (Prod, Stage, Qa, Dev) environments in 4 different AWS regions.\\
-		• Puppet scripts to automate the software configuration\\
+		• Deployment by building the jobs on Jenkins which would load artifact and Cloudformation template files to S3.\\
+		• Deploying latest architecture by building and creating/updating Cloudformation Stacks.\\
+		• Configuration management using the puppet scripts\\
+		• Managing Load Balancing from ASG and doing RCA on Linux servers in case of failed deployment or sudden errors in the processing.\\
 		• Monitored the AWS architectured using Cloudwatch and created alarms to notify anomalies.\\
 		• Monitored the app logs using ELK stack\\
- • Deploying latest architecture by building and creating/updating Cloudformation Stacks.\\
  • Assisted in updating the Cloudformation templates to better suit the latest dependencies.\\
  • Participated in project management through Github boards and JIRA.\\
  • Created documentation on various aspects of the project like security, configuration, improving efficiency and monitoring on Confluence.\\
-  • POC for monitoring and aufiting tools like Site 24/7,Manageengine,Cloudsecurity plus
-- did DR testing
+  • Created POC for monitoring and auditing tools like Site 24/7,Manageengine,Cloudsecurity plus.\\
+• Performed DR testing on the architecture to test for vulnerabilities. \\
+• Exploring new open source tools and technologies.
  
 
 \\ \texttt{AWS}\slashsep\texttt{Linux}\slashsep\texttt{Jenkins}\slashsep\texttt{Nginx}\slashsep\texttt{Tomcat}}
@@ -180,8 +184,17 @@ environment to AWS cloud.\\ \texttt{Windows Server}\slashsep\texttt{AWS}\slashse
 %	ADDITIONAL INFORMATION
 %----------------------------------------------------------------------------------------
 
+\cvsect{Projects}
 
+\begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+  \textbf{AWS Konsole}:\\\\Angular 7 Web app to interact with AWS services • Deployed as static website on S3 • Backend is a Serverless API running on AWS Lambda • CI/CD pipeline using Jenkins\\\\ \icon{Github}{4}{\href{https://github.com/darshan-raul/awsdashboard}{github.com/darshan-raul/awsdashboard}}\\\\
+\textbf{NativeScript Mobile App}:\\\\NativeScript/Angular 7 Mobile app to interact with AWS services • Can be deployed both as a IOS and Android App • Backend is a Serverless API running on AWS Lambda\\\\\icon{Github}{4}{\href{https://github.com/darshan-raul/NativeScript-Mobile-App}{github.com/darshan-raul/NativeScript-Mobile-App}}\\\\
+    \textbf{Python AWS CLI}:\\\\Python based CLI application to interact with AWS services • More interactive way to deal with AWS operations rather than traditional CLI • Backend is a Serverless API running on AWS Lambda\\\\\icon{Github}{4}{\href{https://github.com/darshan-raul/Python-CLI-for-AWS}{github.com/darshan-raul/Python-CLI-for-AWS}}\\\\
+        \textbf{ServerLess REST API}:\\\\Python Flask based API endpoints running on AWS Lambda • Lambda functions integrated with AWS API gateway • Monitoring the API responses/logs using AWS Cloudwatch and generating notifications to Slack on alarms.\\\\\icon{Github}{4}{\href{github.com/darshan-raul/SAM-Serverless-Application-Model-rest-api-lambda-}{github.com/darshan-raul/SAM-Serverless-Application-Model-rest-api-lambda-}}\\\\
 
+\end{minipage}
 %----------------------------------------------------------------------------------------
 
 \end{document}
